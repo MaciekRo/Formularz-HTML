@@ -10,16 +10,16 @@
     <form action="https://formspree.io/mrogala89@gmail.com" method="POST">
         <!--personal data-->
         <label for="username">Imię:</label><br>
-        <input type="text" id="username"><br><br>
+        <input type="text" name="username"><br><br>
         <label for="surname">Nazwisko:</label><br>
-        <input type="text" id="surname"><br><br>
+        <input type="text" name="surname"><br><br>
         <label for="email">e-mail:</label><br>
-        <input type="email" id="e-mail"><br><br>
+        <input type="email" name="e-mail"><br><br>
         <label for="phone">Numer telefonu:</label><br>
-        <input type="tel" ide="phone"><br><br>
+        <input type="tel" name="phone"><br><br>
         <!--city-->
         <label for="city">Wybór miasta:</label><br>
-        <select type="city" id="city">
+        <select type="city" name="city">
                <option value="krakow">Kraków</option>
                <option value="warszawa">Warszawa</option>
                <option value="gdansk">Gdańsk</option>
@@ -28,13 +28,13 @@
         </select><br><br>
         <!--gender-->
         <label for="gender">Wybierz płeć:</label><br>
-        <input type="radio" id="gender" value="male" checked>Mężczyzna
-        <input type="radio" id="gender" value="female">Kobieta <br><br>
+        <input type="radio" name="gender1" value="male" checked>Mężczyzna
+        <input type="radio" name="gender2" value="female">Kobieta <br><br>
         <!--law agreement-->
-        <input type="checkbox" id="agreement" value="yes">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922). <br><br>
+        <input type="checkbox" name="agreement" value="yes">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922). <br><br>
         <!--message-->
         <label for="message">Zostaw wiadomość:</label><br>
-        <textarea id="message" cols="60" rows="10"></textarea><br><br>
+        <textarea name="message" cols="60" rows="10"></textarea><br><br>
         <!--buttons-->
         <input type="submit" value="Wyślij mnie!">
         <input type="reset">
